@@ -1,0 +1,82 @@
+@media (max-width: 576px) { 
+    nav {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav a {
+        text-align: center;
+        padding: 0;
+    }
+
+    nav a:hover {
+        padding: 0;
+        width: 100%;
+    }
+    
+    .principal {
+        flex-direction: column;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .imagem-principal img {
+        height: 200px;
+    }
+
+    .introducao {
+        width: 100%;
+        padding: 2px;
+    }
+
+    .introducao:hover {
+        padding: 2px;
+    }
+
+    .introducao h1 {
+        font-size: 30px;
+    }
+
+    .contato {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contato h1{
+        font-size: 30px;
+    }
+
+    button {
+        width: 230px;
+        font-size: 26px;
+        margin-left: 0;
+    }
+
+    button:hover {
+        width: 235px;
+        padding: 20px 30px;
+        font-size: 30px;
+    }
+
+    .empresas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-right: 0;
+    }
+
+    .logo-empresas img {
+        margin-right: 0;
+    }
+
+    .informacoes { 
+        margin-right: 45px;
+    }
+    
+
+    .avalie {
+        margin-top: 40px;
+    }
+ }
